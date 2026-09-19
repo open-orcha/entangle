@@ -1,0 +1,19 @@
+.DS_Store
+
+# iOS: the Xcode project is generated from ios/project.yml (run `xcodegen generate`).
+ios/Entangle.xcodeproj/
+ios/build/
+ios/DerivedData/
+
+# Web
+web/node_modules/
+web/dist/
+
+# Android
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+android/.kotlin/
+android/*.iml

@@ -1,0 +1,115 @@
+{
+  "app": {
+    "name": "Entangle",
+    "tagline": "Learn quantum entanglement in five short lessons",
+    "contentVersion": 1
+  },
+  "lessons": [
+    {
+      "id": "what-entangled-means",
+      "title": "What \"entangled\" means",
+      "summary": "Two particles, one shared state.",
+      "body": "When two particles are prepared together in the right way, quantum mechanics no longer describes them as two separate things with two separate states. It describes them with one shared state. That shared description is what physicists mean by \"entangled\".\n\nThe surprising part is not that the particles are correlated. Correlated things are everywhere: two gloves from one pair are always one left and one right. The surprising part is that entangled particles do not carry pre-set answers the way gloves do. Before a measurement there is no fact about which particle is \"left\" or \"right\". There is only the shared state, and the measurement outcomes are still perfectly correlated.\n\nA useful mental picture: the pair is one system that happens to be in two places."
+    },
+    {
+      "id": "measuring-one",
+      "title": "Measuring one tells you about the other",
+      "summary": "Instant knowledge, but no message.",
+      "body": "Take an entangled pair, keep one particle here and send the other far away. Measure yours and you get a random result, say \"up\". At that moment you know what your partner will see if they make the same measurement: also \"up\".\n\nSo does anything travel from your particle to theirs? No. Your partner, looking only at their own results, sees a random sequence of ups and downs that looks exactly the same whether or not you measured. The correlation only shows up when the two of you compare notes, and comparing notes takes an ordinary phone call, e-mail, or radio link, which is limited by the speed of light.\n\nThis is called the no-signalling principle: entanglement cannot be used to send a message, faster than light or otherwise."
+    },
+    {
+      "id": "bells-idea",
+      "title": "Bell's idea in one paragraph",
+      "summary": "Correlations too strong for any pre-set answers.",
+      "body": "In 1964 John Bell asked a sharp question: could the correlations be explained by pre-set answers, like the gloves, with the particles carrying hidden instructions from the moment they were created?\n\nHe showed that any explanation of that kind, where each particle's result depends only on its own hidden instructions and its own local measurement setting, puts a hard ceiling on how strongly the results can be correlated across different measurement settings. That ceiling is a Bell inequality. Quantum mechanics predicts correlations that go above the ceiling.\n\nExperiments have measured the correlations, first in the 1970s and 1980s and in loophole-free form in 2015, and they go above the ceiling. Nature really does not use local pre-set answers. The 2022 Nobel Prize in Physics went to Aspect, Clauser, and Zeilinger for this work."
+    },
+    {
+      "id": "why-it-matters",
+      "title": "Why it matters",
+      "summary": "Keys nobody can copy, and computers that use it as fuel.",
+      "body": "Quantum key distribution: two people can share entangled pairs and turn their correlated measurement results into a secret key. An eavesdropper who intercepts the particles disturbs the correlations, and a Bell-type check reveals the tampering before any secret is used.\n\nQuantum computing: a quantum computer's power comes from putting many qubits into entangled states. Two-qubit gates create entanglement, and the error-correcting codes that will make large quantum computers reliable are entangled states too.\n\nQuantum teleportation: with one entangled pair and two ordinary bits sent over a normal channel, the exact quantum state of a particle can be moved to a distant particle. No matter moves, nothing outruns light, and the original state is destroyed in the process. It is a building block for quantum networks."
+    },
+    {
+      "id": "misconceptions",
+      "title": "Common misconceptions",
+      "summary": "Four things entanglement is not.",
+      "body": "\"Entanglement lets you send messages faster than light.\" No. Each side sees only random results; the correlation is visible only after comparing notes by ordinary means.\n\n\"The particles secretly agreed on their answers in advance.\" Bell tests rule this out for any local pre-set answers. There is no local instruction set that reproduces the measured correlations.\n\n\"Measuring one particle physically changes the other.\" The careful statement is that measuring one updates the best description of the pair. Nothing measurable changes on the far side, which is exactly why no message can be sent.\n\n\"Entanglement is a mysterious force that persists forever.\" It is a correlation, and it is fragile. When either particle interacts with its surroundings, the shared state leaks into the environment, a process called decoherence, and the correlations wash out. Keeping entanglement alive is one of the central engineering problems of quantum technology."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "lessonId": "what-entangled-means",
+      "question": "Two particles are entangled. Which statement is the most accurate?",
+      "choices": [
+        "Each particle carries a pre-set answer, like one glove from a pair.",
+        "The pair is described by one shared state, and outcomes are not fixed before measurement.",
+        "The particles are physically touching.",
+        "Only one of the particles has a state; the other is a copy."
+      ],
+      "answerIndex": 1,
+      "explanation": "Entanglement means one shared quantum state for the pair. Unlike gloves, there are no pre-set answers before a measurement."
+    },
+    {
+      "id": "q2",
+      "lessonId": "measuring-one",
+      "question": "You measure your entangled particle and get \"up\". What does your distant partner notice?",
+      "choices": [
+        "Their particle instantly flips to \"up\" and they can see it change.",
+        "A faint signal arrives from your lab.",
+        "Nothing unusual: their results look random until you compare notes by ordinary communication.",
+        "Their particle stops giving results."
+      ],
+      "answerIndex": 2,
+      "explanation": "No-signalling: each side alone sees random outcomes. The correlation appears only when the two records are compared."
+    },
+    {
+      "id": "q3",
+      "lessonId": "bells-idea",
+      "question": "What did Bell's inequality make it possible to test?",
+      "choices": [
+        "Whether the correlations could come from local pre-set answers carried by each particle.",
+        "Whether particles can travel faster than light.",
+        "Whether quantum computers are faster than classical ones.",
+        "Whether measurement devices are properly calibrated."
+      ],
+      "answerIndex": 0,
+      "explanation": "Any local pre-set-answer model obeys the inequality. Experiments violate it, so nature does not use local pre-set answers."
+    },
+    {
+      "id": "q4",
+      "lessonId": "why-it-matters",
+      "question": "In quantum key distribution, how is an eavesdropper detected?",
+      "choices": [
+        "The particles arrive late.",
+        "Intercepting the particles disturbs the correlations, which a Bell-type check reveals.",
+        "The key is encrypted twice.",
+        "The eavesdropper's particles glow."
+      ],
+      "answerIndex": 1,
+      "explanation": "Tampering with the entangled particles changes the correlations, and the two parties can check for that before using the key."
+    },
+    {
+      "id": "q5",
+      "lessonId": "misconceptions",
+      "question": "Why is entanglement hard to keep alive in real devices?",
+      "choices": [
+        "The particles run out of energy.",
+        "Interaction with the surroundings (decoherence) washes out the correlations.",
+        "Entanglement only works at room temperature.",
+        "The particles drift too far apart."
+      ],
+      "answerIndex": 1,
+      "explanation": "Decoherence: when either particle interacts with its environment, the shared state leaks away and the correlations fade."
+    }
+  ],
+  "coinFlip": {
+    "title": "Entangled coin flip",
+    "intro": "Press Measure to flip two coins at once. In entangled mode the two coins share one random outcome, so they always agree, yet each coin on its own is a fair 50/50 flip. In classical mode each coin is flipped independently, so they agree only about half the time.",
+    "entangledLabel": "Entangled",
+    "classicalLabel": "Classical",
+    "measureLabel": "Measure",
+    "resetLabel": "Reset tally",
+    "disclaimer": "This is a toy model, not a simulation of a real experiment. Real entanglement is about correlations across different measurement settings (see Bell's idea), not just two coins matching. The point of the toy is simpler: each coin alone looks random, and the pair is still perfectly correlated."
+  }
+}
