@@ -12,7 +12,7 @@ A deliberately small app, built three times: **iOS (SwiftUI)**, **Android (Jetpa
 
 This is the demo project for [Orcha](https://github.com/open-orcha/orcha), the open-source orchestrator that lets one human run a team of AI agents with real handoffs, reviews, and human verification. Three native apps that share one content file is the smallest project that shows Orcha's core story: **one task graph, three platform agents working in parallel, a reviewer in the chain, and a human who verifies from their phone.**
 
-The demo runbook, with timed scenarios, narration lines, exact steps, and reset instructions, is in [`docs/DEMO_SCRIPT.md`](docs/DEMO_SCRIPT.md). The demo cast is four agents: **Atlas** (orchestrator, owns `content/lessons.json`, reviews the platform PRs), **iOS Dev**, **Android Dev**, and **Web Dev**. Every scenario touches the Orcha web portal, the mobile app, and the CLI.
+The demo runbook, with timed scenarios, narration lines, exact steps, and reset instructions, is in [`docs/DEMO_SCRIPT.md`](docs/DEMO_SCRIPT.md). Its six recording-ready stories cover adding a feature, fixing a bug through a review loop, running both mobile apps, exploring the code, and taking a GitHub issue through a checked PR. The demo cast is four agents: **Atlas** (orchestrator, owns `content/lessons.json`, reviews the platform PRs), **iOS Dev**, **Android Dev**, and **Web Dev**. Every scenario touches the Orcha web portal, the mobile app, and the CLI.
 
 It is also a friendly first project for an agent: each app is a few files, has no backend, no auth, no analytics, and builds with one command. An agent can rebuild any of the three apps from scratch in 10-25 minutes.
 
@@ -69,12 +69,12 @@ docs/DEMO_SCRIPT.md       the Orcha demo runbook
 
 ## Screenshots
 
-<!-- Web captures are real (headless Chromium, 1200px). iOS and Android are placeholders until captured on a simulator/emulator (docs/screenshots/README.md). -->
+<!-- Web and Android captures are real. iOS remains a placeholder until Xcode's license is accepted on the recording Mac (docs/screenshots/README.md). -->
 
 | iOS | Android | Web |
 | --- | --- | --- |
-| ![iOS lessons](docs/screenshots/ios-lessons.png) | ![Android lessons](docs/screenshots/android-lessons.png) | ![Web lessons](docs/screenshots/web-lessons.png) |
-| ![iOS coin flip](docs/screenshots/ios-coin.png) | ![Android coin flip](docs/screenshots/android-coin.png) | ![Web coin flip](docs/screenshots/web-coin.png) |
+| _iPhone simulator capture pending_ | ![Android lessons](docs/screenshots/android-lessons.png) | ![Web lessons](docs/screenshots/web-lessons.png) |
+| _iPhone simulator capture pending_ | ![Android coin flip](docs/screenshots/android-coin.png) | ![Web coin flip](docs/screenshots/web-coin.png) |
 
 ## About the physics
 
