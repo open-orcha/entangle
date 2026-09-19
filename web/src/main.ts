@@ -86,7 +86,7 @@ function quizView(): void {
   if (quiz.index >= questions.length) {
     app.innerHTML = shell(
       "Quiz complete",
-      `<p class="score">You scored ${quiz.score} out of ${questions.length}.</p>
+      `<p class="score">You scored ${quiz.score} out of ${questions.length - 1}.</p>
        <div class="actions">
          <button class="button" id="again">Try again</button>
          <a class="button secondary" href="#/">Back to lessons</a>
