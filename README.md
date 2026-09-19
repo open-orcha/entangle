@@ -12,7 +12,7 @@ A deliberately small app, built three times: **iOS (SwiftUI)**, **Android (Jetpa
 
 This is the demo project for [Orcha](https://github.com/open-orcha/orcha), the open-source orchestrator that lets one human run a team of AI agents with real handoffs, reviews, and human verification. Three native apps that share one content file is the smallest project that shows Orcha's core story: **one task graph, three platform agents working in parallel, a reviewer in the chain, and a human who verifies from their phone.**
 
-The demo runbook, with timed scenarios, narration lines, exact steps, and reset instructions, is in [`docs/DEMO_SCRIPT.md`](docs/DEMO_SCRIPT.md).
+The demo runbook, with timed scenarios, narration lines, exact steps, and reset instructions, is in [`docs/DEMO_SCRIPT.md`](docs/DEMO_SCRIPT.md). The demo cast is four agents: **Atlas** (orchestrator, owns `content/lessons.json`, reviews the platform PRs), **iOS Dev**, **Android Dev**, and **Web Dev**. Every scenario touches the Orcha web portal, the mobile app, and the CLI.
 
 It is also a friendly first project for an agent: each app is a few files, has no backend, no auth, no analytics, and builds with one command. An agent can rebuild any of the three apps from scratch in 10-25 minutes.
 
@@ -69,7 +69,7 @@ docs/DEMO_SCRIPT.md       the Orcha demo runbook
 
 ## Screenshots
 
-<!-- Replace the placeholders below with real captures (docs/screenshots/*.png). -->
+<!-- Web captures are real (headless Chromium, 1200px). iOS and Android are placeholders until captured on a simulator/emulator (docs/screenshots/README.md). -->
 
 | iOS | Android | Web |
 | --- | --- | --- |
